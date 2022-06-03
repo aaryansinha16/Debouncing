@@ -1,0 +1,36 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: #141a28;
+}
+
+#container, #movieDiv{
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 35px;
+    /* margin-top: 0px; */
+    margin-bottom: 30px;
+    background-color: white;
+    line-height: 20px;
+    border-radius: 10px;
+}
+#container:hover{
+    box-shadow: none;
+
+}
+.name:hover{
+    border: 1px solid purple;
+    cursor: pointer;
+}
+#input{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 100px;
+}
+input[type = 'text']{
+    font-size: 22px;
+    text-align: center;
+    padding: 5px;
+}
